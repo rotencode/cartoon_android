@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/Margin10Dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_imagesource_photostoreTv"
+            style="@style/DialogButtonStyle"
+            android:text="@string/imagesource_photostore"/>
+
+        <ImageView
+            style="@style/HorizontalLine"
+            android:contentDescription="@string/empty" />
+
+        <TextView
+            android:id="@+id/dialog_imagesource_cameraTv"
+            android:text="@string/imagesource_camera"
+            style="@style/DialogButtonStyle" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_imagesource_cancelTv"
+        style="@style/DialogButtonStyle"
+        android:layout_marginTop="@dimen/Margin10Dp"
+        android:background="@drawable/rectangle_white"
+        android:text="@string/btn_cancel" />
+
+</LinearLayout>

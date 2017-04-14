@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    
+    <color name="ButtonTextColor">#007bee</color>
+    <color name="LineColor">#c6c6c6</color>
+    
+    <color name="TitleBar">#FF0000</color>
+    
+    <color name="TextButtonPress">#08000000</color>
+    <color name="HintTextColor">#88000000</color>
+    
+    <color name="Red">#FF0000</color>
+    <color name="ButtonPress">#b4b4b4</color>
+    <color name="Mask">#66333333</color>
+    <color name="PointEnable">#55FF0000</color>
+    <color name="PointDisable">#55000000</color>
+    
+    <color name="ImageBg">#5d5d5d</color>
+</resources>

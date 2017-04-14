@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <ImageView
+            style="@style/WrapStyle"
+            android:contentDescription="@string/empty"
+            android:src="@mipmap/explane" />
+
+        <TextView
+            style="@style/WrapStyle"
+            android:layout_marginTop="@dimen/Margin5Dp"
+            android:text="@string/explane_best" />
+
+        <TextView
+            style="@style/WrapStyle"
+            android:layout_margin="@dimen/Margin5Dp"
+            android:paddingLeft="@dimen/Margin10Dp"
+            android:paddingRight="@dimen/Margin10Dp"
+            android:text="@string/explane_detail" />
+    </LinearLayout>
+
+</ScrollView>

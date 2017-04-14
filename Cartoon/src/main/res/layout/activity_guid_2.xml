@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TextImageStyle"
+        android:layout_marginTop="@dimen/Margin20Dp"
+        android:text="@string/guid2_1" />
+
+    <TextView
+        style="@style/TextImageStyle"
+        android:layout_marginTop="@dimen/Margin10Dp"
+        android:text="@string/guid2_2" />
+
+    <ImageView
+        style="@style/WrapStyle"
+        android:layout_marginBottom="@dimen/Margin5Dp"
+        android:layout_marginRight="@dimen/Margin5Dp"
+        android:layout_marginLeft="@dimen/Margin5Dp"
+        android:layout_marginTop="@dimen/Margin50Dp"
+        android:contentDescription="@string/empty"
+        android:src="@mipmap/guid_2" />
+
+</LinearLayout>

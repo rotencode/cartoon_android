@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_try"
+        android:icon="@mipmap/btn_add"
+        android:showAsAction="always"
+        android:title="@string/action_try"/>
+    <item
+        android:icon="@mipmap/btn_more"
+        android:showAsAction="always"
+        android:title="@string/action_more">
+        <menu>
+            <item
+                android:id="@+id/action_save"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="@string/action_save"/>
+            <item
+                android:id="@+id/action_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/action_share"/>
+        </menu>
+    </item>
+
+</menu>

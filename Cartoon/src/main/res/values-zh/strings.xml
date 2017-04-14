@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我是艺术家</string>
+
+    <string name="drawer_close">关闭</string>
+    <string name="drawer_open">打开</string>
+    <!-- 右上角按钮 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; -->
+    <string name="action_try">开始</string>
+    <string name="action_save">保存</string>
+    <string name="action_more">更多</string>
+    <string name="action_share">分享</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_delete">删除</string>
+    <string name="action_finish">完成</string>
+    <string name="share_text">为你提供猪耳朵，大鼻子，眯眯眼，外星人，窝瓜脸等夸张形象</string>
+    <string name="share_url">http://www.wandoujia.com/apps/com.songtzu.cartoon</string>
+    <string name="empty"></string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="neterror">当前网络不可用，请检查网络设置</string>
+    <string name="fail">网络异常，请稍后再试</string>
+    <string name="notsave">图片未保存，切换模式将丢失，是否要保存到SD卡</string>
+    <string name="savepath">图片已保存到 %s</string>
+    <string name="switch_remind">切换回来会显示原图，但是你随时可以保存、分享</string>
+    <string name="btn_cancel">取&#160;&#160;&#160;&#160;消</string>
+    <string name="btn_sure">确&#160;&#160;&#160;&#160;定</string>
+    <string name="btn_remind">提&#160;&#160;&#160;&#160;示</string>
+    <string name="btn_iknow">知道了</string>
+    <string name="welcome1">做个艺术家，就是这么简单</string>
+    <string name="guid2_1">美照太多，</string>
+    <string name="guid2_2">晒点不一样的</string>
+    <string name="guid3_1">个性头像，</string>
+    <string name="guid3_2">怎么变都可以</string>
+    <string name="imagesource_photostore">相&#160;&#160;&#160;&#160;册</string>
+    <string name="imagesource_camera">拍一张</string>
+    <string name="saved">你已经保存过这张图片啦</string>
+    <string name="processing">正在处理，请稍后。</string>
+    <string name="nopic2save">没有图片需要保存，赶快去试试吧</string>
+    <string name="nopic2share">没有图片可以分享，赶快去试试吧</string>
+
+    <string name="menu_about">关&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;于</string>
+    <string name="menu_guid">使用指导</string>
+    <string name="menu_history">历史记录</string>
+    <string name="menu_setting">设&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;置</string>
+    <string name="menu_review">去&#160;&#160;评&#160;&#160;分</string>
+    <string name="menu_feedback">意见反馈</string>
+    
+    <!-- about -->
+    <string name="about">关于</string>
+    <string name="about_author">作者信息</string>
+    <string name="about_appraise">去评分</string>
+    <string name="about_suggestion">意见反馈</string>
+    <string name="about_website"><u>官网</u></string>
+    <string name="about_privacy">隐私政策</string>
+    <string name="about_privacy1"><u>隐私政策</u></string>
+    <string name="about_copyright">Copyright&#160;&#160;@&#160;&#160;2015&#160;&#160;Songztu.All&#160;&#160;Rights&#160;&#160;Reserved.</string>
+
+    <!-- 作者信息 -->
+    <string name="author">作者信息</string>
+    <string name="author_name1">谢松</string>
+    <string name="author_description">2008&#8211;2012 华侨大学</string>
+    <string name="author_contacts_songtzu">songtzu@163.com</string>
+    <string name="author_name2">罗林群</string>
+
+    <!-- 隐私政策 -->
+    <string name="privacy">隐私政策</string>
+
+    <!-- 引导页 -->
+    <string name="guide">立刻体验</string>
+
+    <!-- 图片质量说明 -->
+    <string name="explane">使用指导</string>
+    <string name="explane_best">最佳栏目.png</string>
+    <string name="explane_detail">1.最佳图片尺寸为2000*2000像素，其中人脸尺寸占二分一的大小，即1000像素。参考“最佳栏目.png”
+	\n\n2.如果需要生成卡通头像，照片请参考证件照的样式。眼睛看着正前方。
+	\n\n3.最佳效果图片需要混合冷暖色调。\n
+	&#160;&#160;&#160;&#160;冷暖色调分类如下：\n
+	&#160;&#160;&#160;&#160;冷色调：红，橘红，黄\n
+	&#160;&#160;&#160;&#160;暖色调：绿，蓝，紫\n\n
+	&#160;&#160;&#160;&#160;这里，最佳图片效果，图片中可以为红蓝搭配，红绿搭配，红紫搭配。黄蓝搭配，黄绿搭配，黄紫搭配等。
+	</string>
+    <!--\n\n4.当前版本，图像处理的过程需要保持网络畅通。最好在wifi/4G环境下使用。-->
+    <string name="history">历史记录</string>
+    <string name="history_no"><u>没有图片预览，去试试！</u></string>
+    <string name="delete_title">真的要删除吗？</string>
+    <string name="delete_ok">真的，没开玩笑！</string>
+    <!-- 设置 -->
+    <string name="setting">设置</string>
+    <string name="setting_size">图片最大尺寸</string>
+    <string name="setting_autosize">2500</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" >
+    </GridView>
+
+    <TextView
+        android:id="@+id/noDataTv"
+        style="@style/WrapStyle"
+        android:layout_centerInParent="true"
+        android:text="@string/history_no"
+        android:textColor="@color/ButtonTextColor"
+        android:textSize="@dimen/TextSize15Sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/itemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/LineColor"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/indexTv"
+            style="@style/WrapStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/Margin5Dp"
+            android:textColor="@android:color/white" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/indexTv" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- this theme file is about app style -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="@style/Theme.Custom"></style>
+
+    <style name="Theme.Custom" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/CustomActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionOverflowButtonStyle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground </item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:textSize">@dimen/TextSize15Sp</item>
+        <item name="android:actionMenuTextAppearance">@style/CustomTitleTextStyle</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <!-- 返回按钮图标 -->
+        <item name="android:homeAsUpIndicator">@mipmap/btn_back</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.ActionBar">
+
+        <!-- Change action bar background color -->
+        <item name="android:background">@color/TitleBar</item>
+        <item name="android:titleTextStyle">@style/CustomTitleTextStyle</item>
+    </style>
+
+    <style name="CustomTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+
+        <!-- Change action bar title color -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomActionButtonStyle" parent="@android:style/Widget.ActionButton">
+
+        <!--
+        Change action button background color 
+        <item name="android:background">@drawable/action_button_background</item>
+
+
+
+        -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/TextSize15Sp</item>
+    </style>
+
+    <style name="CustomActionOverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+
+        <!--
+        Change overflow button background color 
+        <item name="android:background">@drawable/action_button_background</item>
+
+
+        
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingRight">1dp</item>
+        -->
+        <item name="android:textSize">@dimen/TextSize15Sp</item>
+        <!-- 没有显示出来的图标 -->
+        <item name="android:src">@mipmap/btn_more</item>
+    </style>
+
+    <style name="StatusBarBackground"></style>
+
+    <style name="AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="MainStyle" parent="@style/Theme.Custom">
+        <!-- 返回按钮图标 -->
+        <item name="android:homeAsUpIndicator">@mipmap/btn_menu</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- 实心 -->
+    <solid android:color="@android:color/white" />
+    <!-- 描边 -->
+    <stroke
+        android:width="@dimen/LineWidth"
+        android:color="@color/LineColor" />
+<!--     圆角  -->
+    <corners android:radius="@dimen/Margin5Dp" />
+<!--
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+-->
+</shape>

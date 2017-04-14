@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_aLl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        style="@style/WrapStyle"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/empty"
+        android:src="@mipmap/big_logo" />
+
+    <TextView
+        style="@style/TextImageStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/Margin20Dp"
+        android:text="@string/welcome1" />
+
+</RelativeLayout>

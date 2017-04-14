@@ -29,3 +29,6 @@ proguard/
 .idea/
 .gradle/
 
+build/
+Cartoon/build/
+

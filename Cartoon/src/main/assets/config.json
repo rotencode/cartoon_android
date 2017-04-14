@@ -1,0 +1,8 @@
+[
+	{"name":"卡通","flag":1,"size":1600,"sRes":"songtzu_cartoon","lRes":"songtzu_cartoon"},
+	{"name":"Lylejk风格画","flag":2,"size":1600,"sRes":"songtzu_lylejkpaint","lRes":"songtzu_lylejkpaint"},
+	{"name":"Lemo效果","flag":4,"size":1600,"sRes":"songtzu_lemo","lRes":"songtzu_lemo"},
+	{"name":"油画","flag":5,"size":1600,"sRes":"songtzu_kuwahara","lRes":"songtzu_kuwahara"},
+	{"name":"毡笔","flag":6,"size":1600,"sRes":"songtzu_feltpen","lRes":"songtzu_feltpen"},
+	{"name":"水粉","flag":3,"size":1600,"sRes":"songtzu_painting","lRes":"songtzu_painting"}
+]

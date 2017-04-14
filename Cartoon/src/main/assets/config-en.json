@@ -1,0 +1,8 @@
+[
+	{"name":"Cartoon","flag":1,"size":1600,"sRes":"songtzu_cartoon","lRes":"songtzu_cartoon"},
+	{"name":"Lylejk","flag":2,"size":1600,"sRes":"songtzu_lylejkpaint","lRes":"songtzu_lylejkpaint"},
+	{"name":"Lemo","flag":4,"size":1600,"sRes":"songtzu_lemo","lRes":"songtzu_lemo"},
+	{"name":"Oil Paint","flag":5,"size":1600,"sRes":"songtzu_kuwahara","lRes":"songtzu_kuwahara"},
+	{"name":"Felt pens","flag":6,"size":1600,"sRes":"songtzu_feltpen","lRes":"songtzu_feltpen "},
+	{"name":"Gouache","flag":3,"size":1600,"sRes":"songtzu_painting","lRes":"songtzu_painting"}	
+]

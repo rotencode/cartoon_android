@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01000000"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/HorizontalLine"
+        android:layout_marginTop="@dimen/Margin20Dp" />
+
+    <LinearLayout style="@style/SettingStyle" >
+
+        <TextView
+            style="@style/WrapStyle"
+            android:text="@string/setting_size" />
+
+        <EditText
+            android:id="@+id/maxSizeEt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/Margin10Dp"
+            android:layout_marginStart="@dimen/Margin10Dp"
+            android:background="@android:color/transparent"
+            android:inputType="number"
+            android:maxLength="4"
+            android:text="@string/setting_autosize" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View style="@style/HorizontalLine" />
+
+</LinearLayout>

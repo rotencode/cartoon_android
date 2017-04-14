@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="Margin10Dp">10dp</dimen>
+    <dimen name="Margin20Dp">20dp</dimen>
+    <dimen name="Margin30Dp">30dp</dimen>
+    <dimen name="Margin35Dp">35dp</dimen>
+    <dimen name="Margin50Dp">50dp</dimen>
+    <dimen name="Margin5Dp">5dp</dimen>
+    <dimen name="Margin2Dp">2dp</dimen>
+    <dimen name="LineWidth">0.5dp</dimen>
+    <dimen name="TabHeight">1dp</dimen>
+    <dimen name="StandardHeight">45dp</dimen>
+    <dimen name="TextSize10Sp">10sp</dimen>
+    <dimen name="TextSize12Sp">12sp</dimen>
+    <dimen name="TextSize15Sp">15sp</dimen>
+    <dimen name="TextSize20Sp">20sp</dimen>
+
+</resources>

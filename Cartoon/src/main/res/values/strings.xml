@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">I\'m Artist</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <!-- 右上角按钮 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; -->
+    <string name="action_try">Try</string>
+    <string name="action_save">Save</string>
+    <string name="action_more">More</string>
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_finish">Finish</string>
+    <string name="share_url">http://www.wandoujia.com/apps/com.songtzu.cartoon</string>
+    <string name="share_text">To provide you with pig ears, big nose, squint, aliens, Squash face and other exaggerated image.</string>
+    <string name="empty"></string>
+    <string name="exit">Press again to exit</string>
+    <string name="neterror">The current network is unavailable, please check your network settings</string>
+    <string name="notsave">Processed picture not saved, save it now?</string>
+    <string name="savepath">Picture has been saved to %s</string>
+    <string name="switch_remind">Unsaved picture, confirm to save.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_sure">OK</string>
+    <string name="btn_remind">Remind</string>
+    <string name="btn_iknow">I know</string>
+    <string name="welcome1">Simple to be an artist!</string>
+    <string name="guid2_1">It\'s time to </string>
+    <string name="guid2_2">show something different</string>
+    <string name="guid3_1">Humorous avartar</string>
+    <string name="guid3_2"></string>
+    <string name="imagesource_photostore">Gallery</string>
+    <string name="imagesource_camera">Camera</string>
+    <string name="saved">You have saved this picture</string>
+    <string name="processing">Processing, please try later.</string>
+    <string name="nopic2save">There\'s no picture to save, just try it.</string>
+    <string name="nopic2share">There\'s no picture to share, just try it.</string>
+    <string name="menu_about">About</string>
+    <string name="menu_guid">Tutorial</string>
+    <string name="menu_history">History</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_review">Review</string>
+    <string name="menu_feedback">Feedback</string>
+    <!-- about -->
+    <string name="about">About</string>
+    <string name="about_author">Author</string>
+    <string name="about_appraise">Review</string>
+    <string name="about_suggestion">Feedback</string>
+    <string name="about_website"><u>Website</u></string>
+    <string name="about_privacy">Privacy</string>
+    <string name="about_privacy1"><u>Privacy</u></string>
+    <string name="about_copyright">Copyright&#160;&#160;@&#160;&#160;2015&#160;&#160;Songztu.All&#160;&#160;Rights&#160;&#160;Reserved.</string>
+
+    <!-- 作者信息 -->
+    <string name="author">Author</string>
+    <string name="author_name1">Songtzu</string>
+    <string name="author_description">2008&#8211;2012 Huaqiao University </string>
+    <string name="author_contacts_songtzu">songtzu@163.com</string>
+    <string name="author_name2">CarrotRol</string>
+
+    <!-- 隐私政策 -->
+    <string name="privacy">Privacy</string>
+
+    <!-- 引导页 -->
+    <string name="guide">Try</string>
+
+    <!-- 图片质量说明 -->
+    <string name="explane">Best Picture</string>
+    <string name="explane_best">Best Picture.png</string>
+    <string name="explane_detail">1.Suggested photo size is 2000x2000, size of head around 1000x1000. See \"Best Picture.png\"
+	\n\n2.If you need to generate a cartoon icon, please refer to passport style photo, eyes looking straight ahead.
+	\n\n3.Best results pictures need to mix warm and cold colors.\n
+	&#160;&#160;&#160;&#160;Warm and cold colors classified as follows:\n
+	&#160;&#160;&#160;&#160;Cool color:red, orange, yellow.\n
+	&#160;&#160;&#160;&#160;Warm color:green, blue, purple.\n\n
+	&#160;&#160;&#160;&#160;For best picture effect, photo can be red&amp;blue, or red&amp;green, or red&amp;purple, or yellow&amp;blue, or yellow&amp;green, or yellow&amp;purple etc.
+	</string>
+    <!--\n\n4.The current version, processing need to maintain network flow. Preferably under the wifi / 4G environment.-->
+    <!-- 历史记录 -->
+    <string name="history">Histror</string>
+    <string name="history_no"><u>No pictire to display, try it.</u></string>
+    <string name="delete_title">Are you sure to delete this picture ?</string>
+    <string name="delete_ok">Of course !</string>
+    
+    <!-- 设置 -->
+    <string name="setting">Setting</string>
+    <string name="setting_size">Picture max size</string>
+    <string name="setting_autosize">2500</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/Margin5Dp"
+        android:paddingLeft="@dimen/Margin5Dp"
+        android:paddingRight="@dimen/Margin5Dp" >
+
+        <TextView
+            android:id="@+id/author_aboutTv"
+            style="@style/WrapStyle"
+            android:layout_marginTop="@dimen/Margin10Dp"
+            android:padding="@dimen/Margin5Dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin10Dp"
+            android:text="@string/author_name1"
+            android:textSize="@dimen/TextSize20Sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            style="@style/TextDisplayStyle"
+            android:layout_marginTop="@dimen/Margin2Dp"
+            android:background="@drawable/rectangle_white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/author_de"
+                style="@style/TextDisplayStyle"
+                android:text="@string/author_description" />
+
+            <TextView
+                style="@style/TextDisplayStyle"
+                android:text="@string/author_contacts_songtzu" />
+
+            <ImageView
+                style="@style/WrapStyle"
+                android:layout_margin="@dimen/Margin5Dp"
+                android:contentDescription="@string/empty"
+                android:src="@mipmap/author_songtzu" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin10Dp"
+            android:text="@string/author_name2"
+            android:textSize="@dimen/TextSize20Sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            style="@style/TextDisplayStyle"
+            android:layout_marginTop="@dimen/Margin2Dp"
+            android:background="@drawable/rectangle_white"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/TextDisplayStyle"
+                android:text="@string/author_description" />
+
+            <ImageView
+                style="@style/WrapStyle"
+                android:layout_margin="@dimen/Margin5Dp"
+                android:contentDescription="@string/empty"
+                android:src="@mipmap/author_carrot" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

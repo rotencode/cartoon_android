@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/Margin10Dp"
+    android:background="@drawable/rectangle_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/btn_remind"
+        android:layout_margin="@dimen/Margin10Dp"/>
+    
+    <TextView
+        android:id="@+id/dialog_remindTitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/action_finish"
+        android:textSize="@dimen/TextSize15Sp"
+        android:layout_margin="@dimen/Margin10Dp"/>
+
+    <ImageView
+        style="@style/HorizontalLine"
+        android:contentDescription="@string/empty" />
+
+    <TextView
+        android:id="@+id/dialog_remindOkTv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/StandardHeight"
+        android:gravity="center"
+        android:textColor="@color/ButtonTextColor" />
+
+</LinearLayout>

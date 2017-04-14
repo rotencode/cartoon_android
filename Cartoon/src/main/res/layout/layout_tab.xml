@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/WrapStyle"
+        android:textSize="13sp"
+        android:paddingLeft="@dimen/Margin10Dp"
+        android:paddingRight="@dimen/Margin10Dp" 
+        android:paddingTop="@dimen/Margin5Dp" 
+        android:paddingBottom="@dimen/Margin5Dp"  />
+
+    <ImageView
+        android:id="@+id/symbolIv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/TabHeight"
+        android:layout_alignLeft="@id/titleTv"
+        android:layout_alignRight="@id/titleTv"
+        android:layout_below="@id/titleTv"
+        android:paddingLeft="@dimen/Margin5Dp"
+        android:paddingRight="@dimen/Margin5Dp"
+        android:contentDescription="@string/empty"
+        android:src="@color/Red" />
+
+</RelativeLayout>

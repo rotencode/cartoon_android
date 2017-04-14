@@ -1,0 +1,79 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+    </style>
+
+    <style name="bottom2up">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="WrapStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="HorizontalLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/LineWidth</item>
+        <item name="android:background">@color/LineColor</item>
+    </style>
+
+    <style name="VerticalLine">
+        <item name="android:layout_width">@dimen/LineWidth</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/LineColor</item>
+    </style>
+
+    <style name="TextButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/StandardHeight</item>
+        <item name="android:background">@drawable/button_text_bg</item>
+        <item name="android:drawableEnd">@mipmap/btn_right</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/Margin5Dp</item>
+        <item name="android:paddingRight">@dimen/Margin5Dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/StandardHeight</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ButtonTextColor</item>
+    </style>
+
+    <style name="DialogButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/StandardHeight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ButtonTextColor</item>
+    </style>
+
+    <style name="TextDisplayStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/Margin5Dp</item>
+        <item name="android:layout_marginRight">@dimen/Margin5Dp</item>
+        <item name="android:layout_marginTop">@dimen/Margin5Dp</item>
+    </style>
+
+    <style name="TextImageStyle" parent="@style/WrapStyle">
+        <item name="android:textSize">@dimen/TextSize20Sp</item>
+    </style>
+
+    <style name="MenuTextStyle" parent="@style/TextButtonStyle">
+        <item name="android:textSize">@dimen/TextSize15Sp</item>
+    </style>
+
+    <style name="SettingStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/StandardHeight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/Margin5Dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>
