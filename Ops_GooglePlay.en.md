@@ -25,9 +25,8 @@
 # 英文描述信息
 
     Comics Caricature Cartoon Face Picture Auto Maker is the best photo process app which turn your avatar picture into comics caricature, fullly automatic. No need turn to cartoonist or caricaturist for help. You are cartoonist!
-    With our cartoon picture editor ,amaze you now with our cartoon pics art effect,creat awesome artwork and kawaii photo.
-kawaii photo,cartoon picture app is the best art cartoon camera、cartoon picture editor app(pic editor) & cartoon pics art filters camera app for you to snap cartoon photos and edit Painnt pictures.be an Artisto!
-    Cartoon selfie camera app is here to help you snap photolab be pics art ! Cartoon yourself ! Use our cartoon photo editor app to turn your photos into artworks!
+    With our cartoon picture editor ,amaze you now with our cartoon pics art effect,creat awesome artwork and kawaii photo. kawaii photo,cartoon picture app is the best art cartoon camera、cartoon picture editor app(pic editor) & cartoon pics art filters camera app for you to snap cartoon photos and edit Painnt pictures.be an Artisto!
+    Cartoon selfie camera app is here to help you snap photolab be pics art ! Cartoon yourself ! Use this app to turn your photos into artworks!
     Comics Caricature Cartoon Face Picture Auto Maker app is programed by songtzu from China, I will continuing to bring My work to you in the future, thanks & enjoy it!
     ★---------- Key Features ----------★
     - Exaggerated expression,Exaggerated face, Exaggerated usage, Exaggerated app
