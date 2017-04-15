@@ -11,12 +11,14 @@
 
 # title
 
-    Comics Caricature Cartoon Face Picture Auto Maker
+    //Comics Caricature Cartoon Face Picture Auto Maker--过长
+    Comics Cartoon Face Maker
 
 # short describe
 
-    Did you bored with your head image for your facebook/twitter/snapchat/google+/wechat/QQ? Want share your funny pictures with your friends? Comics caricature cartoon face picture auto maker is a free app which automatic help to convert your picture into a comics caricature cartoon picture, NO photoshop skill is needed. FULL automatic processed.
+    //Did you bored with your head image for your facebook/twitter/snapchat/google+/wechat/QQ? Want share your funny pictures with your friends? Comics caricature cartoon face picture auto maker is a free app which automatic help to convert your picture into a comics caricature cartoon picture, NO photoshop skill is needed. FULL automatic processed.
 
+    Automatic convert Picture into comics caricature cartoon,NO PS skill needed.
 
 
 
