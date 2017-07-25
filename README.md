@@ -1,7 +1,5 @@
 # cartoon android 
 
-#en
-
 this app contains two part.
 
   cpp code.(not commit yet.)
@@ -10,4 +8,4 @@ this app contains two part.
 this app convert your photo into cartoon style.
 
 
-##sponsor 100$ can get cpp code.
+## sponsor 100$ can get cpp code.
